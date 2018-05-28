@@ -1,0 +1,85 @@
+page-overview {
+body{
+  background-repeat: no-repeat;
+  background-image: url("../../assets/imgs/home3.png");
+  background-position-y: 75%;
+  background-size: cover;
+}
+  #gotoarmy{
+    width: 500px;
+    height: 370px;
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    transform: rotate(-30deg);
+  }
+  #gotogold {
+    width: 250px;
+    height: 230px;
+    position: absolute;
+    left: 34%;
+    top: 52%;
+    transform: rotate(-30deg);
+  }
+  #gotowest {
+    width: 250px;
+    height: 240px;
+    position: absolute;
+    left: 41%;
+    top: 4%;
+    transform: rotate(-30deg);
+  }
+  #gotocurrent {
+    width: 270px;
+    height: 200px;
+    position: absolute;
+    left: 32.5%;
+    top: 50%;
+    transform: rotate(-30deg);
+  }
+  #gotobunker {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    position: absolute;
+    left: 12%;
+    top: 67%;
+  }
+  @media screen and (max-width: 1030px) {
+    body{
+      height: 100%;
+      width: 100%;
+      background-size: 100% 65%;
+      background-position-y: 35%;
+      background-color: #000000;
+    }
+    #gotobunker {
+      width: 120px;
+      height: 110px;
+      border-radius: 48%;
+      position: absolute;
+      left: 9%;
+      top: 56%;
+      transform: rotate(-30deg);
+    }
+    #gotoarmy{
+      width: 180px;
+      height: 220px;
+      left: 61%;
+      top:36%;
+      transform: rotate(-30deg);
+    }
+    #gotowest{
+      width: 220px;
+      height:220px;
+      top: 25%;
+      left: 19%;
+    }
+    #gotocurrent{
+      top: 12%;
+      left: 44%;
+      transform: rotate(-20deg);
+    }
+  }
+
+}
