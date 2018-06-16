@@ -21,5 +21,11 @@ export class ArchitecturePage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ArchitecturePage');
   }
+  getInfo(){
+    document.getElementById("infobox").style.display="block"
+  }
+  closeInfo(){
+    document.getElementById("infobox").style.display="none"
+  }
 
 }

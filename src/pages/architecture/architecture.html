@@ -6,13 +6,32 @@
 -->
 <ion-header>
 
-  <ion-navbar>
-    <ion-title>architecture</ion-title>
+  <ion-navbar color="dark">
+    <button ion-button menuToggle>
+      <ion-icon name="menu" color="tirpitz">Menu</ion-icon>
+    </button>
+    <ion-title>Architecture</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
+<ion-content no-padding>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+
+  <img id="spin" src="../../assets/imgs/360.png">
+
+  <div id="infobox"><img id="backbutton" src="../../assets/imgs/back2.png" (click)="closeInfo()"><p id="infotext">The new TIRPITZ is a sanctuary in the sand that acts as a gentle counterbalance to the dramatic war
+    history of the site in Blåvand on the west coast of Denmark. <br> <br> The 2,800 m2 ‘invisible museum’
+    transforms and expands a historic German WWII bunker into a groundbreaking cultural complex
+    comprising four exhibitions within a single structure, seamlessly embedded into the landscape.</p></div>
+  <img id="infoicon" src="../../assets/imgs/infoicon.png" (click)="getInfo()">
+
+
+
+  </body>
 
 </ion-content>
